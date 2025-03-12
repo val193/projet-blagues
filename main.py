@@ -5,5 +5,6 @@ def tell_joke(lang="en", category="neutral"):
 
 if __name__ == "__main__":
     langue = input("Choisissez une langue (en, de, es, it, gr): ")
+
     categorie = input("Choisissez une catégorie de blague (neutral, chuck, all): ")
     tell_joke(langue, categorie)
